@@ -16,8 +16,8 @@ const HomePage = () => {
     >
       <div className="absolute inset-0 bg-black/50">
         <nav className="flex justify-between items-center py-4 mx-10 text-white ">
-          <img className="w-32 text-white" src="/public/Frame.png" alt="" />
-          <input type="text" placeholder="Search your destination" />
+          <h1 className="text-3xl font-bold">TravelBoss</h1>
+          <input className="p-2 rounded-lg" type="text" placeholder="Search your destination" />
           <h3>News</h3>
           <h3>Destination</h3>
           <h3>Blogs</h3>
